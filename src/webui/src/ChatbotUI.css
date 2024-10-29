@@ -1,0 +1,88 @@
+.chatgpt-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f4f4f9;
+  background-image: url("C:\Users\JOHITH RAJ S S\OneDrive\Desktop\InstaChef background.jpg"); /* Add your background image here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+}
+
+.chatgpt-header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatgpt-messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+.message {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.message.user {
+  justify-content: flex-end;
+}
+
+.message-bubble {
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 60%;
+}
+
+.message.user .message-bubble {
+  background-color: #f8d7da;
+}
+
+.message-bubble img.uploaded-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.chatgpt-input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
+  position: sticky;
+  bottom: 0;
+}
+
+.chatgpt-file-input {
+  flex: 1;
+  padding: 10px;
+}
+
+.chatgpt-send-button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.chatgpt-send-button:hover {
+  background-color: #ff4b3e;
+}
+
+.welcome-header {
+  text-align: center; /* Center text */
+  color: #9d0000; /* Header text color */
+  
+  margin-bottom: 20px; /* Spacing below header */
+}
